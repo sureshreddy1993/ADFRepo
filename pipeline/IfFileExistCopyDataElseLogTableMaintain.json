@@ -1,5 +1,5 @@
 {
-	"name": "IfFileExistC0pyDataElseLogTableMaintain",
+	"name": "IfFileExistCopyDataElseLogTableMaintain",
 	"properties": {
 		"activities": [
 			{
