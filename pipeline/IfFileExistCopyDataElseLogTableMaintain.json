@@ -49,7 +49,7 @@
 					],
 					"ifTrueActivities": [
 						{
-							"name": "IfFileExists",
+							"name": "copydata",
 							"type": "Copy",
 							"dependsOn": [],
 							"policy": {
