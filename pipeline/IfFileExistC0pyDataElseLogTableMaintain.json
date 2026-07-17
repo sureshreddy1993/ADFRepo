@@ -40,7 +40,7 @@
 					],
 					"ifTrueActivities": [
 						{
-							"name": "Copy data1",
+							"name": "IfFileExists",
 							"type": "Copy",
 							"dependsOn": [],
 							"policy": {
