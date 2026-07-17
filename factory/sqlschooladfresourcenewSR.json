@@ -1,0 +1,15 @@
+{
+	"name": "sqlschooladfresourcenewSR",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b3e2c643-f01c-4626-a3ea-413e37cc3ec8",
+		"tenantId": "e107868f-f173-4713-be06-285d59c56bad"
+	}
+}
