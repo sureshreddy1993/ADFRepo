@@ -32,8 +32,17 @@
 								"secureInput": false
 							},
 							"userProperties": [],
+							"linkedServiceName": {
+								"referenceName": "AzureSqlDatabase",
+								"type": "LinkedServiceReference"
+							},
 							"typeProperties": {
-								"scripts": [],
+								"scripts": [
+									{
+										"type": "NonQuery",
+										"text": "INSERT INTO PipelineLog\r\n(\r\n    PipelineName,\r\n    Status,\r\n    LogTime\r\n)\r\nVALUES\r\n(\r\n    'Customer Pipeline',\r\n    'Source File Not Found',\r\n    GETDATE()\r\n);\r\n"
+									}
+								],
 								"scriptBlockExecutionTimeout": "02:00:00"
 							}
 						}
