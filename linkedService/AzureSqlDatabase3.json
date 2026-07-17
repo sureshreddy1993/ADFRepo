@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlDatabase3",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sqlschoolazlogicalserversr.database.windows.net",
+			"database": "AzureSQLDatabaseOLTP",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "sqlschool",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDEwODBBNEQ3LTQzMzAtNDQ5RC04QUE3LTc2MTZGNUYxQjIyMF9jNWVjNWQ5NC1lODA4LTQ0YTctYTVhNS1lNDUyNGNkZjE2ZTYiDQp9"
+		}
+	}
+}
